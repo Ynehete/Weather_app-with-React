@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Make container fill the viewport height */
+  }
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color:rgb(240, 240, 240,0.5);
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .inputData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputField {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding and border in width */
+    padding-left: 40px; /* Adjust the padding-left to accommodate the search icon */
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .location {
+    padding-top: 50px;
+    font-size: 38px;
+    margin-bottom: 5px; 
+  }
+  
+  .temp {
+    padding-top: 40px;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .min-max {
+    padding-top: 90px;
+    font-size: 14px;
+  }
+
+  .humidity{
+    font-size: 14px;
+  }
+  
